@@ -1,10 +1,10 @@
 # rosepowermenu
 A (cool) powermenu.
 
-![rosebar screenshot](rosebar.png)
+![rosepowermenu screenshot](rosepowermenu.png)
 ## requirements
 
-- **linux + wayland** — rosebar is intended for wayland desktops.
+- **linux + wayland** — rosepowermenu is intended for wayland desktops.
 - **[quickshell](https://github.com/quickshell-mirror/quickshell)** — required to run the bar.
 - **a compatible wayland compositor** — workspace and window-title features depend on compositor support. (MangoWM used for testing)
 - **coreutils** — used by the installer for file operations.
@@ -16,26 +16,26 @@ some modules may require additional system utilities or services, depending on h
 clone the repository and run the installer:
 
 ```bash
-git clone https://github.com/sappyware/rosebar.git
-cd rosebar
+git clone https://github.com/sappyware/rosepowermenu.git
+cd rosepowermenu
 chmod +x install.sh
 ./install.sh
 ```
 
-the installer copies the QML files into `~/.config/quickshell/rosebar/`.
+the installer copies the QML files into `~/.config/quickshell/rosepowermenu/`.
 
 ## running
 
-start rosebar with:
+start rosepowermenu with:
 
 ```bash
-qs -c rosebar
+qs -c rosepowermenu
 ```
 
 to stop it, use:
 
 ```bash
-qs -c rosebar kill
+qs -c rosepowermenu kill
 ```
 example usage in MangoWM:
 ```bash
