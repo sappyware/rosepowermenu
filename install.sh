@@ -2,7 +2,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-APP_NAME="rosemenu-power"
+APP_NAME="rosepowermenu"
 SOURCE_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 INSTALL_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/quickshell/$APP_NAME"
 
