@@ -1,0 +1,5 @@
+singleton Config  1.0 Config.qml
+singleton Theme   1.0 Theme.qml
+
+PowerMenu   1.0 PowerMenu.qml
+PowerButton 1.0 PowerButton.qml
