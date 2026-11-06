@@ -1,0 +1,26 @@
+# Rosepowermenu: Material 3 Expressive example. Put at the top of config.toml.
+design = "md3e"            # "custom" = the old fully-configurable look (default)
+
+[md3]
+mode    = "auto"           # dark | light | auto (reads gsettings color-scheme, else dark)
+source  = "wallpaper"      # seed | wallpaper | colors
+seed    = "#6750A4"        # used by source = "seed" and as wallpaper fallback
+variant = "analogous"      # analogous | tonal-spot | vibrant | expressive | neutral | monochrome
+tint    = 2.0              # how much surfaces take the wallpaper hue (0 = grey)
+motion  = "expressive"     # expressive (springy) | standard
+icon_font = "IosevkaTerm Nerd Font Mono"   # font for the action glyphs
+# wallpaper = "~/Pictures/wall.png"     # explicit path; otherwise auto-detect (awww/swww/swaybg)
+# wallpaper_cmd = "cat ~/.cache/wall"   # or a command that prints the path
+# wallpaper_poll_ms = 5000              # 0 = sample once (polled only while the menu is open)
+
+# Override any MD3 role (snake_case) on top of the generated palette:
+# [colors]
+# primary = "#d0bcff"
+# error_container = "#8c1d18"
+
+# Anything in [font], [overlay], [button], [animation] still wins over the MD3 defaults:
+# [button]
+# width = 120
+# height = 128
+# [animation]
+# open_style = "glide"       # pop | glide | expand | fade | none
